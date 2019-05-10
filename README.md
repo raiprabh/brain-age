@@ -31,6 +31,21 @@ Since there are multiple users accessing the same machine and we want to share t
     ```
 3. `source ~/.profile` to restart the profile.
 
+##### Jupyter notebook configuration setup
+This is required to access the port directly on public IP of our instance.
+
+1. At your home directory, run `jupyter notebook --generate-config`.
+2. `vim ~/.jupyter/jupyter_notebook_config.py`
+3. Append the following lines towards the end of the file, then save and quit.
+    ```
+    c.NotebookApp.kernel_spec_manager_class = 'environment_kernels.EnvironmentKernelSpecManager'
+    c.NotebookApp.iopub_data_rate_limit = 10000000000
+    c.NotebookApp.ip = '*'
+    c.NotebookApp.open_browser = False
+    ```
+4. Finally, run the command `jupyter notebook password` to setup password for your notebook.
+ 
+
 ##### Github repository setup
 
 Steps 1 and 2 describe the best way to setup github access to your VM user (via ssh). 
