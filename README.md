@@ -47,7 +47,7 @@ Steps 1 and 2 describe the best way to setup github access to your VM user (via 
 2. Change directory to root of project (`cd ~/brain-age`).
 3. Run `jupyter notebook`. It should show the port on which the notebook is running (this might also change, since three of us may be working parallely on different ports).
 4. In your web browser, open `public-dns-ipv4:PORT` to open up the jupyter notebook.
-5. Grab a coffee!
+5. Grab a coffee and start coding!
 
 
 
