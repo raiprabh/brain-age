@@ -61,7 +61,7 @@ Steps 1 and 2 describe the best way to setup github access to your VM user (via 
 1. Make sure to activate the right virtual environment prior running the instance. Run the command `source /home/ubuntu/anaconda3/bin//activate pytorch_p36` to activate pytorch with CUDA python environment.
 2. Change directory to root of project (`cd ~/brain-age`).
 3. Run `jupyter notebook`. It should show the port on which the notebook is running (this might also change, since three of us may be working parallely on different ports).
-4. In your web browser, open `public-dns-ipv4:PORT` to open up the jupyter notebook.
+4. In your web browser, open `public-dns-ipv4:PORT` to open up the jupyter notebook. For example `ec2-54-212-67-222.us-west-2.compute.amazonaws.com:8888`. Enter your notebook password when prompted.
 5. Grab a coffee and start coding!
 
 
