@@ -64,6 +64,11 @@ Steps 1 and 2 describe the best way to setup github access to your VM user (via 
 4. In your web browser, open `public-dns-ipv4:PORT` to open up the jupyter notebook. For example `ec2-54-212-67-222.us-west-2.compute.amazonaws.com:8888`. Enter your notebook password when prompted.
 5. Grab a coffee and start coding!
 
+### Data
 
+Please note that we shouldn't save the data in the home directory as our machine has only 3 gb left. Instead, move to `/shared` directory and download all the data there. Following are the datasets which have been already downloaded in the `/shared` directory
+
+1. `ixi-dataset` (from [here](http://brain-development.org/ixi-dataset/))
+2. `fcp` (from [here](http://fcon_1000.projects.nitrc.org/fcpClassic/FcpTable.html))
 
 
