@@ -66,7 +66,7 @@ Steps 1 and 2 describe the best way to setup github access to your VM user (via 
 
 ### Data
 
-Please note that we shouldn't save the data in the home directory as our machine has only 3 gb left. Instead, move to `/shared` directory and download all the data there. Following are the datasets which have been already downloaded in the `/shared` directory
+Please note that we shouldn't save the data in the home directory as our machine has only 3 gb left. Instead, move to `/shared` directory and download all the data there. We have added a new volume of around 150gb dedicated to this folder for our data and weights. Following are the datasets which have been already downloaded in the `/shared` directory
 
 1. `ixi-dataset` (from [here](http://brain-development.org/ixi-dataset/))
 2. `fcp` (from [here](http://fcon_1000.projects.nitrc.org/fcpClassic/FcpTable.html))
